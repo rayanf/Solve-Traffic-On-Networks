@@ -1,9 +1,3 @@
-exampleGraph = ['ae','ab','ac','ad','cd','db','cb']
-
-
-
-
-
 def check(exampleGraph,startPoint,endPoint):
     global currentPath
     global final
@@ -68,7 +62,12 @@ def finalCheck(exampleGraph,startPoint,endPoint):
             pastPoint = final[p][i]
             finalfinal[p].append(currentRoad)
 
-    return final
+    return finalfinal
 
-print(finalCheck(exampleGraph,'a','b'))
-print(finalfinal)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~let's see how it works~~~~~~~~~~~~~~~~~~~~~#       
+# exampleGraph = ['ae','ab','ac','ad','cd','db','cb']   
+# print(finalCheck(exampleGraph,'a','b'))
+#
+# outPut ---> [['ab'], ['ac', 'cd', 'db'], ['ac', 'cb'], ['ad', 'db']]
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
