@@ -65,7 +65,7 @@ def finalCheck(exampleGraph,startPoint,endPoint):
     return finalfinal
 
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~let's see how it works~~~~~~~~~~~~~~~~~~~~~#       
+#~~~~~~~~~~~~~~~~~~~~~~~~~let's see how it works for test~~~~~~~~~~~~~~~~~~~~~#       
 # exampleGraph = ['ae','ab','ac','ad','cd','db','cb']   
 # print(finalCheck(exampleGraph,'a','b'))
 #
